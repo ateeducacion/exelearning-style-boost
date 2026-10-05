@@ -105,8 +105,12 @@ proceden de los `pix/e/sidebar_*.svg` de Moodle. La estructura deriva del estilo
 Default de eXeLearning (Ignacio Gros, exelearning.net, CC BY-SA 4.0), del que se
 conservan los iconos de iDevices de Francisco Javier Pulido Cuadrado (CC BY-SA 4.0).
 Noto Sans, de The Noto Project Authors, bajo [SIL OFL 1.1](theme/fonts/OFL.txt).
-Recurso de ejemplo e ilustraciones reutilizados del estilo
+Recurso de ejemplo reutilizado del estilo
 [Libro](https://github.com/ateeducacion/exelearning-style-book) del Área de Tecnología
-Educativa del Gobierno de Canarias, bajo CC0 1.0. Moodle™ es una marca registrada de
+Educativa del Gobierno de Canarias, bajo CC0 1.0. Las once ilustraciones son SVG
+originales bajo CC0 1.0, con formas geométricas y colores planos de la paleta Boost;
+están en `content/resources/SP*/` y no necesitan fuentes ni imágenes externas
+([ver la colección](.github/illustrations.png)).
+Moodle™ es una marca registrada de
 Moodle Pty Ltd; este estilo no está afiliado a Moodle ni respaldado por Moodle.
 Los archivos de eXeLearning y sus bibliotecas conservan sus licencias originales.

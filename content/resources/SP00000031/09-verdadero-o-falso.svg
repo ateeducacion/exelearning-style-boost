@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+<title id="title">Decide si cada afirmación es verdadera o falsa</title>
+<desc id="desc">Ilustración educativa de formas geométricas y colores planos, con la paleta azul del estilo Boost.</desc>
+
+<rect x="0" y="0" width="800" height="600" rx="0" fill="white" stroke="none" stroke-width="8"/>
+<rect x="32" y="32" width="736" height="536" rx="32" fill="#e7f0f9" stroke="none" stroke-width="8"/>
+<rect x="112" y="144" width="256" height="312" rx="28" fill="white" stroke="#9fc4e5" stroke-width="8"/><rect x="432" y="144" width="256" height="312" rx="28" fill="white" stroke="#9fc4e5" stroke-width="8"/><g transform="translate(240 250) scale(1.45)"><circle cx="0" cy="0" r="38" fill="#357a32" stroke="none" stroke-width="8"/><path d="M-18 0L-5 13 21-16" fill="none" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" /></g><g transform="translate(560 250) scale(1.45)"><circle cx="0" cy="0" r="38" fill="#ca3120" stroke="none" stroke-width="8"/><path d="M-13-13L13 13 M13-13L-13 13" fill="none" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" /></g><path d="M172 356H308 M172 394H277 M492 356H628 M492 394H597" fill="none" stroke="#9fc4e5" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

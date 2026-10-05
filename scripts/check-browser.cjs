@@ -38,7 +38,19 @@ const base = process.argv[2] || 'http://localhost:1314/';
         title: document.querySelector('.page-title').textContent.trim(),
         tab: document.querySelector('.boost-secondary-navigation a.active')?.textContent.trim(),
         next: document.querySelector('.boost-activity-navigation a.nav-button-right')?.href,
+        illustrations: [...document.querySelectorAll('main figure img')].map(img => ({
+          svg: new URL(img.currentSrc).pathname.endsWith('.svg'),
+          loaded: img.complete && img.naturalWidth > 0,
+          alt: Boolean(img.alt.trim()),
+        })),
       }));
+      assert.deepEqual(state.illustrations, [{ svg: true, loaded: true, alt: true }], `Page ${index + 1} has a loaded SVG illustration with alternative text`);
+      assert(await page.evaluate(async () => {
+        const image = document.querySelector('main figure img');
+        const source = await fetch(image.currentSrc).then(response => response.text());
+        const svg = new DOMParser().parseFromString(source, 'image/svg+xml');
+        return [...svg.querySelectorAll('path')].every(path => path.getTotalLength() > 0);
+      }), `Page ${index + 1} has drawable SVG paths`);
       assert.equal(stripped(state.current), stripped(urls[index]), 'The course index marks the current page');
       if (index) assert.equal(state.crumbs.at(-1), state.title, 'The breadcrumb ends on the page title');
       if (state.tab) assert.equal(state.tab, state.title, 'The section tab marks the page');

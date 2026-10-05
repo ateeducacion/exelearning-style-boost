@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+<title id="title">Enlaces para seguir aprendiendo</title>
+<desc id="desc">Ilustración educativa de formas geométricas y colores planos, con la paleta azul del estilo Boost.</desc>
+
+<rect x="0" y="0" width="800" height="600" rx="0" fill="white" stroke="none" stroke-width="8"/>
+<rect x="32" y="32" width="736" height="536" rx="32" fill="#e7f0f9" stroke="none" stroke-width="8"/>
+<path d="M400 187C306 135 202 147 115 186V453C202 414 306 402 400 455C494 402 598 414 685 453V186C598 147 494 135 400 187Z" fill="white" stroke="#0f6cbf" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" /><path d="M400 187V455 M159 229Q261 192 352 233 M159 293Q261 256 352 297 M159 357Q261 320 352 361" fill="none" stroke="#9fc4e5" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" /><g transform="translate(539 280) scale(1.45)"><path d="M0-30C-9-13-23 1-23 15A23 23 0 0 0 23 15C23 1 9-13 0-30Z" fill="#0f6cbf" stroke="none" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" /><path d="M-11 14Q-11 26 0 28" fill="none" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" /></g><path d="M488 395Q539 378 595 397" fill="none" stroke="#9fc4e5" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" /><circle cx="663" cy="145" r="55" fill="#0f6cbf" stroke="none" stroke-width="8"/><path d="M641 167L681 127 M648 127H681V160" fill="none" stroke="white" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+</svg>
