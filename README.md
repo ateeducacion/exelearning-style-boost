@@ -106,7 +106,11 @@ Los estilos oficiales para los centros educativos de Canarias (Flux, Nova y REF)
 
 ## Créditos y licencias
 
-[Licencia general CC0](LICENSE), salvo los archivos que indican otra licencia.
+[Licencia general GPL-3.0](LICENSE), como el tema Boost de Moodle del que deriva,
+salvo los archivos que indican otra licencia: el recurso de ejemplo y sus ilustraciones
+son CC0 1.0 (Área de Tecnología Educativa · Consejería de Educación, Formación
+Profesional, Actividad Física y Deportes del Gobierno de Canarias), los iconos de
+iDevices son Apache 2.0 y Noto Sans es SIL OFL 1.1.
 
 El estilo se basa en el [tema Boost](https://github.com/moodle/moodle/tree/main/public/theme/boost) de [Moodle](https://moodle.org)
 (© Moodle Pty Ltd y colaboradores de Moodle), distribuido bajo la

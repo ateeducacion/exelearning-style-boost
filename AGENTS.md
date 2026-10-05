@@ -19,5 +19,5 @@
 - Para regenerar el HTML del ejemplo, usar el CLI de eXeLearning desde su propio directorio:
   `bun dist/cli.js elp:export /ruta/al/ciclo-del-agua.elpx /tmp/boost elpx` y copiar
   `index.html`, `html/` y `search_index.js` (no el `content.xml`, que añade la captura en base64).
-- El estilo es GPL-3.0 (como Moodle); Noto Sans conserva OFL; los iconos, Apache 2.0; el
+- El repositorio y el estilo son GPL-3.0 (como Moodle; `LICENSE` es el texto íntegro para que GitHub lo detecte); Noto Sans conserva OFL; los iconos, Apache 2.0; el
   material didáctico es CC0.
