@@ -10,6 +10,10 @@ tarjetas de actividad y la navegación entre actividades. Usa los colores del si
 diseño de Moodle (azul `#0f6cbf`) y su tipografía, Noto Sans. El ejemplo incluye las 11
 páginas de **El ciclo del agua**, con actividades de ordenar las fases y verdadero/falso.
 
+> Basado en el [tema Boost de Moodle](https://github.com/moodle/moodle/tree/main/public/theme/boost), de Moodle Pty Ltd y la comunidad de Moodle,
+> publicado bajo la [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.html). Este estilo
+> conserva esa licencia ([theme/LICENSE](theme/LICENSE)) y no está afiliado a Moodle.
+
 ![Estilo Boost de eXeLearning](.github/screenshot.png)
 
 [Descargar estilo Boost](https://github.com/ateeducacion/exelearning-style-boost/raw/refs/heads/main/content/resources/boost.zip) · [Abrir el ejemplo en eXeLearning](https://static.exelearning.dev/?url=https://github-proxy.exelearning.dev/?repo=ateeducacion/exelearning-style-boost&branch=main)
@@ -104,9 +108,13 @@ Los estilos oficiales para los centros educativos de Canarias (Flux, Nova y REF)
 
 [Licencia general CC0](LICENSE), salvo los archivos que indican otra licencia.
 
-El diseño reproduce el tema Boost de [Moodle](https://moodle.org) y, como Moodle, el
-estilo se publica bajo [GPL-3.0](theme/LICENSE); los iconos de los botones del cajón
-proceden de los `pix/e/sidebar_*.svg` de Moodle. La estructura deriva del estilo
+El estilo se basa en el [tema Boost](https://github.com/moodle/moodle/tree/main/public/theme/boost) de [Moodle](https://moodle.org)
+(© Moodle Pty Ltd y colaboradores de Moodle), distribuido bajo la
+[GNU GPL v3 o posterior](https://github.com/moodle/moodle/blob/main/COPYING.txt). De él
+toma los colores y medidas del sistema de diseño, la disposición de la barra, el cajón,
+las pestañas y las tarjetas de actividad, y los iconos de los botones del cajón
+(`pix/e/sidebar_*.svg`); por eso el estilo se publica también bajo
+[GPL-3.0](theme/LICENSE). La estructura deriva del estilo
 Default de eXeLearning (Ignacio Gros, exelearning.net, CC BY-SA 4.0). Los iconos de
 iDevices son los Material Symbols de Google que usa el estilo Zen, bajo
 [Apache License 2.0](theme/icons/LICENSE.txt), coloreados con

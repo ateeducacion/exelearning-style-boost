@@ -2,6 +2,8 @@
  * Boost — eXeLearning style script
  * Moodle's Boost layout around an eXeLearning export: top navbar, course index
  * drawer, breadcrumb, section tabs, activity navigation and footer popover.
+ * Based on Moodle's Boost theme (theme/boost), © Moodle Pty Ltd and
+ * contributors, GNU GPL v3 or later: https://github.com/moodle/moodle
  * Licensed under the GNU General Public License v3.0.
  */
 (function () {
