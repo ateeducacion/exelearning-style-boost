@@ -733,7 +733,7 @@ body.exe-export {
     width: var(--boost-drawer-width);
     max-width: none;
     margin: 0;
-    padding: 0 .4rem 1.5rem;
+    padding: 0 .4rem 5rem;
     overflow-y: auto;
     background: var(--boost-gray-200);
     scrollbar-width: thin;
@@ -898,10 +898,11 @@ body.exe-export {
 }
 
 /* Main region (#page.drawers .main-inner) */
+/* The bottom gap keeps the activity navigation clear of the floating notice. */
 .boost-js .exe-web-site main.page {
     max-width: calc(var(--boost-content-width) + 2rem);
     margin: 0 auto;
-    padding: 1.5rem 1rem 3rem;
+    padding: 1.5rem 1rem 5.5rem;
 }
 
 .boost-js .exe-web-site .main-header {
@@ -1094,8 +1095,8 @@ body.exe-export {
 .exe-open-exelearning {
     position: fixed;
     z-index: 1020;
-    right: calc(2rem + 52px);
-    bottom: 2rem;
+    bottom: 1.5rem;
+    left: 1.5rem;
     display: flex;
     align-items: center;
     gap: 7px;
