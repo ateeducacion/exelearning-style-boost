@@ -23,6 +23,6 @@ files and bundled libraries keep the licenses declared in their own files.
 The Boost style (theme/) reproduces the look of Moodle's Boost theme and is
 licensed under the GNU General Public License v3.0 (theme/LICENSE), like Moodle.
 Its layout is derived from the eXeLearning "Default" style by Ignacio Gros
-(CC BY-SA 4.0), and it ships the Default style's iDevice icons by Francisco
-Javier Pulido Cuadrado under CC BY-SA 4.0:
-https://creativecommons.org/licenses/by-sa/4.0/
+(CC BY-SA 4.0): https://creativecommons.org/licenses/by-sa/4.0/
+Its iDevice icons are Google's Material Symbols, taken from the eXeLearning Zen
+style and recoloured, under the Apache License 2.0 (theme/icons/LICENSE.txt).

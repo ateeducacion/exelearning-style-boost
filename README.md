@@ -28,9 +28,10 @@ La raíz del repositorio es el ejemplo ELPX descomprimido; `theme/` contiene el 
   con fondo oscurecido; Escape o un clic fuera lo cierran.
 - **Cabecera de página** con migas de pan y título, y **navegación secundaria** con las
   páginas de la sección como *nav pills* del sistema de diseño de Moodle 5.
-- **Tarjetas de actividad** para cada iDevice, con el icono teñido según su propósito
-  (contenido, evaluación, colaboración, comunicación, contenido interactivo y
-  administración), igual que `recolor-icon` en Moodle. Las preguntas de verdadero/falso
+- **Tarjetas de actividad** para cada iDevice, con iconos SVG de línea coloreados según
+  su propósito (contenido, evaluación, colaboración, comunicación, contenido interactivo
+  y administración) con los colores de actividad de Moodle; el color va en cada archivo,
+  como en los demás estilos de eXeLearning. Las preguntas de verdadero/falso
   usan el fondo de las preguntas de los cuestionarios.
 - **Navegación entre actividades** al final de cada página: anterior, «Ir a…» y siguiente.
 - **Pie de página** dentro del botón de ayuda «?», abajo a la derecha, con la licencia.
@@ -68,6 +69,8 @@ de `git archive`.
 
 - `python3 scripts/build_water_cycle.py`: reconstruye el ejemplo ELPX y el estilo
   desde los archivos actuales.
+- `python3 scripts/color_icons.py /ruta/a/exelearning/public/files/perm/themes/base/zen/icons`:
+  regenera los iconos de `theme/icons/` con el color de propósito de Moodle.
 - Para regenerar las páginas HTML del ejemplo, exporta el ELPX con el CLI de
   eXeLearning desde su propio directorio:
   `bun dist/cli.js elp:export /ruta/a/dist/ciclo-del-agua.elpx /tmp/boost elpx`
@@ -102,8 +105,10 @@ Los estilos oficiales para los centros educativos de Canarias (Flux, Nova y REF)
 El diseño reproduce el tema Boost de [Moodle](https://moodle.org) y, como Moodle, el
 estilo se publica bajo [GPL-3.0](theme/LICENSE); los iconos de los botones del cajón
 proceden de los `pix/e/sidebar_*.svg` de Moodle. La estructura deriva del estilo
-Default de eXeLearning (Ignacio Gros, exelearning.net, CC BY-SA 4.0), del que se
-conservan los iconos de iDevices de Francisco Javier Pulido Cuadrado (CC BY-SA 4.0).
+Default de eXeLearning (Ignacio Gros, exelearning.net, CC BY-SA 4.0). Los iconos de
+iDevices son los Material Symbols de Google que usa el estilo Zen, bajo
+[Apache License 2.0](theme/icons/LICENSE.txt), coloreados con
+`scripts/color_icons.py`.
 Noto Sans, de The Noto Project Authors, bajo [SIL OFL 1.1](theme/fonts/OFL.txt).
 Recurso de ejemplo reutilizado del estilo
 [Libro](https://github.com/ateeducacion/exelearning-style-book) del Área de Tecnología

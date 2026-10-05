@@ -258,31 +258,6 @@ body.exe-export {
     border: 0 !important;
 }
 
-/* Activity icon purposes: Moodle's recolor-icon filter and $activity-icon-colors. */
-.exe-content .box-icon img {
-    filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='recolor' color-interpolation-filters='sRGB'><feColorMatrix type='matrix' values='0 0 0 0 0 0 0 0 0 0.6 0 0 0 0 0.678 0 0 0 1 0'/></filter></svg>#recolor");
-}
-
-.exe-content .box-icon img:is([src$="/ask.png"], [src$="/think.png"], [src$="/think_alt.png"], [src$="/reflection.png"], [src$="/calculate.png"], [src$="/competencies.png"]) {
-    filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='recolor' color-interpolation-filters='sRGB'><feColorMatrix type='matrix' values='0 0 0 0 0.976 0 0 0 0 0 0 0 0 0 0.525 0 0 0 1 0'/></filter></svg>#recolor");
-}
-
-.exe-content .box-icon img:is([src$="/collaborative.png"], [src$="/agreement.png"], [src$="/perform.png"], [src$="/present.png"]) {
-    filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='recolor' color-interpolation-filters='sRGB'><feColorMatrix type='matrix' values='0 0 0 0 0.357 0 0 0 0 0.251 0 0 0 0 1 0 0 0 1 0'/></filter></svg>#recolor");
-}
-
-.exe-content .box-icon img:is([src$="/alert.png"], [src$="/discuss.png"], [src$="/listen.png"], [src$="/share.png"]) {
-    filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='recolor' color-interpolation-filters='sRGB'><feColorMatrix type='matrix' values='0 0 0 0 0.922 0 0 0 0 0.384 0 0 0 0 0 0 0 0 1 0'/></filter></svg>#recolor");
-}
-
-.exe-content .box-icon img:is([src$="/interactive.png"], [src$="/pieces.png"], [src$="/piece.png"], [src$="/play.png"], [src$="/draw.png"], [src$="/experiment.png"], [src$="/sport.png"], [src$="/activity.png"], [src$="/start.png"], [src$="/chrono.png"]) {
-    filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='recolor' color-interpolation-filters='sRGB'><feColorMatrix type='matrix' values='0 0 0 0 0.553 0 0 0 0 0.239 0 0 0 0 0.106 0 0 0 1 0'/></filter></svg>#recolor");
-}
-
-.exe-content .box-icon img:is([src$="/case.png"], [src$="/suitcase.png"], [src$="/passport.png"], [src$="/roadmap.png"], [src$="/stop.png"]) {
-    filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='recolor' color-interpolation-filters='sRGB'><feColorMatrix type='matrix' values='0 0 0 0 0.855 0 0 0 0 0.345 0 0 0 0 0.937 0 0 0 1 0'/></filter></svg>#recolor");
-}
-
 /* Buttons: Bootstrap 5 as configured by Boost */
 .exe-content .btn {
     --bs-btn-border-radius: .5rem;
@@ -385,6 +360,33 @@ body.exe-export {
 
 .exe-content .exe-sortableList-options li:hover {
     border-color: var(--boost-gray-500);
+}
+
+/* "Download source file" iDevice: a Boost primary button */
+.exe-content .exe-download-package-link a {
+    display: inline-block;
+    padding: .375rem .75rem;
+    border: 1px solid var(--boost-primary);
+    border-radius: var(--boost-radius);
+    background-color: var(--boost-primary);
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.5;
+    text-decoration: none;
+    transition: background-color .15s ease, border-color .15s ease;
+}
+
+.exe-content .exe-download-package-link a:hover,
+.exe-content .exe-download-package-link a:focus {
+    border-color: var(--boost-primary-hover);
+    background-color: var(--boost-primary-hover) !important;
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.exe-content .exe-download-package-link a:focus-visible {
+    outline: 0;
+    box-shadow: var(--boost-focus-ring);
 }
 
 /* Tables: Moodle .generaltable */
