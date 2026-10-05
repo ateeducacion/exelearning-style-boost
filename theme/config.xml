@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <name>boost</name>
+  <title>Boost</title>
+  <version>1.0.0</version>
+  <compatibility>4.0.5</compatibility>
+  <author>Área de Tecnología Educativa · Gobierno de Canarias</author>
+  <license>GNU General Public License v3.0</license>
+  <license-url>https://www.gnu.org/licenses/gpl-3.0.html</license-url>
+  <description>El aspecto del tema Boost de Moodle: barra superior blanca, índice del curso en un cajón lateral que se oculta, pestañas de sección, migas de pan, tarjetas de actividad con iconos coloreados según su propósito, navegación entre actividades con «Ir a…» y el pie de página en el botón de ayuda. Colores del sistema de diseño de Moodle (azul #0f6cbf) y tipografía Noto Sans. Sin JavaScript, o al imprimir, el contenido se lee como una página normal.
+
+Diseño basado en el tema Boost de Moodle (moodle.org), GPL-3.0. Estructura derivada del estilo Default de eXeLearning (Ignacio Gros, exelearning.net), CC BY-SA 4.0. Iconos de iDevices de Francisco Javier Pulido Cuadrado, CC BY-SA 4.0 (http://creativecommons.org/licenses/by-sa/4.0/). Tipografía Noto Sans (The Noto Project Authors), SIL Open Font License 1.1 (fonts/OFL.txt).
+
+Creative Commons license badges (img/licenses.gif) are trademarks of Creative Commons (https://creativecommons.org) and are used under their trademark policy (https://creativecommons.org/policies/). They are not covered by this style's license.</description>
+  <downloadable>1</downloadable>
+</theme>
