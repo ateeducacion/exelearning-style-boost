@@ -51,7 +51,6 @@
     }
 
     function init() {
-        addOpenLink();
         var body = document.body;
         var nav = document.getElementById('siteNav');
         var main = document.querySelector('main.page');
@@ -311,27 +310,6 @@
             if (!footer.contains(event.target) && !button.contains(event.target)) show(false);
         });
         footer.before(button);
-    }
-
-    /* ---------- "Edit with eXeLearning" notice, shared by the style collection ---------- */
-
-    function addOpenLink() {
-        if (!document.querySelector('.exe-export') || document.querySelector('.exe-open-exelearning')) return;
-        var link = element('a', 'exe-open-exelearning');
-        link.href = 'https://static.exelearning.dev/?url=https://github-proxy.exelearning.dev/?repo=ateeducacion/exelearning-style-boost&branch=main';
-        link.target = '_blank';
-        link.rel = 'noopener';
-        link.setAttribute('aria-label', 'Abrir este recurso en eXeLearning');
-        var logo = element('img', 'exe-open-logo');
-        logo.src = new URL('icons/exe-logo.svg', assetBase || location.href).href;
-        logo.alt = '';
-        link.append(logo, element('span', '', 'Edit with eXeLearning'));
-        var close = element('button', 'exe-open-close', '×');
-        close.type = 'button';
-        close.setAttribute('aria-label', 'Ocultar enlace de eXeLearning');
-        close.addEventListener('click', function (event) { event.preventDefault(); event.stopPropagation(); link.remove(); });
-        link.append(close);
-        document.body.append(link);
     }
 
     if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);

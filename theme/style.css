@@ -1095,52 +1095,6 @@ body.exe-export {
     padding: 0;
 }
 
-/* "Edit with eXeLearning" notice, shared by the style collection */
-.exe-open-exelearning {
-    position: fixed;
-    z-index: 1020;
-    bottom: 1.5rem;
-    left: 1.5rem;
-    display: flex;
-    align-items: center;
-    gap: 7px;
-    padding: 6px 12px;
-    border: 1px solid var(--boost-primary);
-    border-radius: var(--boost-radius);
-    background: #fff;
-    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .12);
-    color: var(--boost-primary) !important;
-    font: 600 13px/1.2 var(--boost-font);
-    text-decoration: none !important;
-}
-
-.exe-open-logo {
-    width: 20px;
-    height: 20px;
-    object-fit: contain;
-}
-
-.exe-open-exelearning:hover,
-.exe-open-exelearning:focus {
-    background: var(--boost-primary-subtle);
-    outline: 2px solid var(--boost-primary);
-}
-
-.exe-open-close {
-    position: absolute;
-    top: -9px;
-    right: -9px;
-    width: 22px;
-    height: 22px;
-    padding: 0;
-    border: 1px solid var(--boost-primary);
-    border-radius: 50%;
-    background: #fff;
-    color: var(--boost-primary);
-    font: bold 14px/19px var(--boost-font);
-    cursor: pointer;
-}
-
 /* Search panel, opened from the navbar */
 .boost-js .exe-web-site #exe-client-search {
     display: none;
@@ -1182,12 +1136,6 @@ body.exe-export {
         top: calc(99vh - var(--boost-navbar-height) * 2.5);
         z-index: 100;
         box-shadow: 0 2px 8px 0 rgba(0, 0, 0, .33);
-    }
-}
-
-@media (max-width: 899.98px) {
-    .exe-open-exelearning {
-        display: none;
     }
 }
 
@@ -1264,7 +1212,6 @@ body.exe-export {
     .boost-footer-button,
     .boost-secondary-navigation,
     .boost-activity-navigation,
-    .exe-open-exelearning,
     .exe-content .box-toggle,
     .exe-web-site #siteNav,
     .exe-web-site .nav-buttons {
