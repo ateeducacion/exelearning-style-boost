@@ -20,6 +20,8 @@ páginas de **El ciclo del agua**, con actividades de ordenar las fases y verdad
 
 Importa `boost.zip` desde el gestor de estilos de eXeLearning 4.0.5 o posterior.
 La raíz del repositorio es el ejemplo ELPX descomprimido; `theme/` contiene el estilo.
+El botón «Edit with eXeLearning» es solo del ejemplo: está en `edit-in-exelearning.js`,
+fuera del estilo, y no aparece en los recursos que se exporten con él.
 
 ## Qué toma de Moodle
 
@@ -79,6 +81,7 @@ de `git archive`.
   eXeLearning desde su propio directorio:
   `bun dist/cli.js elp:export /ruta/a/dist/ciclo-del-agua.elpx /tmp/boost elpx`
   y copia `index.html`, `html/` y `search_index.js`.
+  Después, `python3 scripts/package.py` vuelve a añadir el botón del ejemplo.
 
 El workflow **Release** se ejecuta manualmente desde Actions o al subir una etiqueta
 `v*`. Comprueba el ejemplo y genera `exelearning-style-boost-<versión>.zip`,
